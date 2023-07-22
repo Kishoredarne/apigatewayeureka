@@ -16,7 +16,7 @@ spring:
     gateway:
       routes:
       - id: firstservice
-        uri: lb://firstservice
+        uri: lb://FIRSTSERVICE
         predicates:
         - Path=/firstservice/**
       - id: secondservice
